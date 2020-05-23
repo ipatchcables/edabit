@@ -14,4 +14,25 @@ function convert(minutes) {
 	return conversion
 }
 
+// Create a function that takes the number of wins, draws and losses and calculates the number of points a football team has obtained so far. A win receives 3 points, a draw 1 point and a loss 0 points.
+
+function footballPoints(wins, draws, losses) {
+	var w = 3 * wins;
+	var d = 1 * draws;
+	var l = 0 * losses;
+	sum = w +d+l
+	return sum
+}
+footballPoints(1,1,1)
+
+// Create a function that takes height and width and finds the perimeter of a rectangle.
+
+
+function findPerimeter(height, width) {
+var h = 2 * height
+var w = 2 * width
+area = h + w
+	return area
+}
+findPerimeter(2,3)
 
