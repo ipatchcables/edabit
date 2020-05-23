@@ -1,1 +1,17 @@
+// Create a function that takes two numbers as arguments and return their sum.
+
+function addition(a, b) {
+sum = a + b;
+	return sum
+}
+addition(3,2)
+
+
+// Write a function that takes an integer minutes and converts it to seconds.
+
+function convert(minutes) {
+	var conversion = 60 * minutes;
+	return conversion
+}
+
 
