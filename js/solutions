@@ -89,3 +89,10 @@ function remainder(x, y) {
 function triArea(base, height) {
 	return base * height * .5
 }
+
+// Given two strings, firstName and lastName, return a single string in the format "last, first".
+
+function concatName(firstName, lastName) {
+	return lastName + ", " + firstName
+}
+concatName("Chris","Last" )
